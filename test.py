@@ -6,5 +6,8 @@ class testCases(unittest.TestCase):
     def test_add(self):
         self.assertEqual(example.add(1,2), 3)
 
-    if _name_ == '_main_':
+    def test_sub(self):
+        self.assertEqual(example.sub(3,2), 1)
+
+    if __name__ == '__main__':
         unittest.main()
